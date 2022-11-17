@@ -1,0 +1,44 @@
+  *{
+  font-family: 'Manrope', sans-serif;
+  }
+
+  .wrap{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+      
+
+      div.brand{
+          font-size: 0.813rem;
+          color: #2E582C;
+          margin-right: 380px;
+      }
+      .nav-right a{
+          text-decoration: none;
+          color: #7D7D7D;
+          margin: 14px;
+          text-transform: capitalize;
+      }
+      a.button{
+          border: 1px solid none;
+          padding:6px 11px;
+          border-radius: 12px;
+          font-size: 0.75rem;
+          background: #2E582C;
+          color: #fff;
+          &:hover{
+              background: #2e582ca3;
+              transition: background 0.3s;
+              -webkit-transition: background 0.3s;
+          }
+      }
+  }
+  
+  .nav-right .link:hover{
+      border-bottom: 2px solid #000;
+      color: #000;
+      transition: border-bottom 0.1s;
+      -webkit-transition: border-bottom 0.2s;
+  }
+  
