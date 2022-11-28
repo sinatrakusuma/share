@@ -1,0 +1,26 @@
+Lisensi Proyek Aplikasi Web
+
+Copyright (c) 2022 C22-107
+
+
+Proyek Aplikasi web ini dibuat sebagai tugas akhir (capstone Project) rangkaian program kampus merdeka SIB Dicoding Batch 3 2022.
+
+
+izin ini diberikan kepada siapapun yang mendapatkan salinan dari proyek aplikasi web
+ini dan file dokumentasi terkait tanpa restrukturisasi termasuk tanpa batasan hak untuk 
+menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan,
+dan/atau menjual salinan proyek aplikasi web ini. Untuk mendapatkan izin pemakaian proyek aplikasi web ini 
+maka perlu di perlengkapi dengan syarat - syarat berikut :
+
+
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan semua
+salinan atau bagian substansial proyek aplikasi web ini
+
+
+Proyek aplikasi perangkat lunak ini disediakan "SEBAGAIMANA ADANYA" tanpa jaminan tersurat, tersirat,
+tidak terbatas pada jaminan dagang, dan kesesuaian tertentu tanpa adanya pelanggaran. Dalam hal apapun Pengembang atau pemegang hak cipta
+bertanggung jawab atas klaim, kerusakan, atau lainnya seperti pembuatan kontrak, kerugian, atau hal lain yang timbul dari eksternal
+sehubungan proyek aplikasi web atau penggunaan atau urusan lain dalam proyek aplikasi web.
+
+
+

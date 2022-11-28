@@ -1,0 +1,92 @@
+header{
+    .logo-name {
+        font-size: 24px;
+        color: #172D15;
+    }
+    
+    .logo-image {
+        width: 40px;
+    }
+    
+    .navigation {
+        display: none;
+        .link {
+            font-size: 14px;
+            color: #7D7D7D;
+            margin: 14px;
+            text-transform: capitalize;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+    
+            &.active {
+                border-bottom: 2px solid #000;
+                color: #000;
+                transition: border-bottom 0.1s;
+                -webkit-transition: border-bottom 0.2s;
+            }
+            &:hover {
+                border-bottom: 2px solid #2E582C;
+                color: #2E582C;
+                transition: border-bottom 0.1s;
+                -webkit-transition: border-bottom 0.2s;
+            }
+    
+        }
+        .contactBtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            border: 1px solid none;
+            min-height: 40px;
+            min-width: 104px;
+            border-radius: 12px;
+            background-color: #2E582C;
+            margin: 0;
+            border:2px solid transparent;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            font-weight: 700;
+
+            &:hover {
+                background-color: #fff;
+                color:#2E582C ;
+                border:2px solid #2E582C;
+            }
+        }
+    }
+
+    .active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .hamburgerBtn {
+        display: none;
+        cursor: pointer;
+        svg{
+            width: 28px;
+            height: 28px;
+            color: black;
+        }
+    }
+
+    @media (max-width: 900px){
+        .hamburgerBtn{
+            display: block;
+        }
+    }
+    @media (min-width: 900px){
+        .navigation{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 24px;
+        }
+    }
+}
