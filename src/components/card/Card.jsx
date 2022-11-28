@@ -1,9 +1,9 @@
 import { Box, styled, Typography } from "@mui/material";
 import React from "react";
-import Cards from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import "./card.scss"
+import Cards from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import "./card.scss";
 
 const Card = () => {
   const CustomBox = styled(Box)(({ theme }) => ({
@@ -46,22 +46,19 @@ const Card = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        marginTop:"5rem",
+        marginTop: "5rem",
       }}
     >
       <div
         style={{
           width: "5%",
           height: "5px",
-          backgroundColor: "#000339",
+          backgroundColor: "#2E582C",
           margin: "0 auto",
         }}
       ></div>
 
-      <Typography
-        variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
-      >
+      <Typography variant="h3" sx={{ fontSize: "35px", fontWeight: "bold", color: "#2E582C", my: 3 }}>
         OUR DEVELOPERS TEAM
       </Typography>
 
@@ -75,30 +72,24 @@ const Card = () => {
             textAlign: "center",
           }}
         >
-         Berikut merupakan Merupakan Anggota Tim Kami
+          Berikut merupakan Merupakan Anggota Tim Dausagi
         </Typography>
       </CustomBox>
 
       <GuidesBox>
         <GuideBox>
-        <Cards sx={{maxWidth: 355}}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="../../1.png"
-        alt="ihsan"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Ihsan
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-    </Cards>
-         
+          <Cards sx={{ maxWidth: 355 }}>
+            <CardMedia component="img" height="140" image="../../1.png" alt="ihsan" />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Ihsan
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Universitas Gunadarma | Teknik Informatika
+              </Typography>
+            </CardContent>
+          </Cards>
+
           <Box
             sx={{
               cursor: "pointer",
@@ -106,28 +97,21 @@ const Card = () => {
               justifyContent: "center",
               alignItems: "center",
             }}
-          >
-          </Box>
+          ></Box>
         </GuideBox>
         <GuideBox>
-        <Cards sx={{ maxWidth: 345}}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="./2.png"
-        alt="Sinatra"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Sinatra
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-    </Cards>
-         
+          <Cards sx={{ maxWidth: 345 }}>
+            <CardMedia component="img" height="140" image="./2.png" alt="Sinatra" />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Sinatra
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Universitas Gunadarma | Teknik Informatika
+              </Typography>
+            </CardContent>
+          </Cards>
+
           <Box
             sx={{
               cursor: "pointer",
@@ -135,28 +119,21 @@ const Card = () => {
               justifyContent: "center",
               alignItems: "center",
             }}
-          >
-          </Box>
+          ></Box>
         </GuideBox>
         <GuideBox>
-        <Cards sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="./3.png"
-        alt="Ervan"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Ervan
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-    </Cards>
-         
+          <Cards sx={{ maxWidth: 345 }}>
+            <CardMedia component="img" height="140" image="./3.png" alt="Ervan" />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Ervan
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Universitas Komputer Indonesia | Sistem Informasi
+              </Typography>
+            </CardContent>
+          </Cards>
+
           <Box
             sx={{
               cursor: "pointer",
@@ -164,28 +141,21 @@ const Card = () => {
               justifyContent: "center",
               alignItems: "center",
             }}
-          >
-          </Box>
+          ></Box>
         </GuideBox>
         <GuideBox>
-        <Cards sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="./4.png"
-        alt="Enzi"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Enzi
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-    </Cards>
-         
+          <Cards sx={{ maxWidth: 345 }}>
+            <CardMedia component="img" height="140" image="./4.png" alt="Enzi" />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Enzi
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Politeknik Negeri Padang | Teknologi Informasi
+              </Typography>
+            </CardContent>
+          </Cards>
+
           <Box
             sx={{
               cursor: "pointer",
@@ -193,11 +163,9 @@ const Card = () => {
               justifyContent: "center",
               alignItems: "center",
             }}
-          >
-          </Box>
+          ></Box>
         </GuideBox>
       </GuidesBox>
-
     </Box>
   );
 };

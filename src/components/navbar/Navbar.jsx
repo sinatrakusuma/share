@@ -1,64 +1,57 @@
-import React from 'react'
-import "./navbar.scss"
-import Button from '@mui/material/Button'
-import { styled } from '@mui/material/styles'
-// import CustomButton from '../CustomButton/CustomButton'
-
-const KontakButton = styled(Button)({
-  fontSize: '0.75rem',
-  padding: '6px 12px',
-  border: '1px solid',
-  lineHeight: 1.5,
-  backgroundColor: '#2E582C',
-  borderColor: '#2E582C',
-  '&:hover': {
-    backgroundColor: '#2e582ca3',
-    borderColor: '#2e582ca3',
-  },
-  '&:active': {
-    boxShadow: 'none',
-    backgroundColor: '#2E582C',
-    borderColor: '#2E582C',
-  },
-  '&:focus': {
-    boxShadow: '0 0 0 0.1rem rgba(0.0.0.0)',
-  },
-});
-
-
+import React from "react";
+import NavbarBrand from "../navbarBrand/navbarBrand";
+import NavbarLink from "../navbarLink/navbarLink";
+import { AppBar, Box } from "@mui/material";
+import { HiBars3BottomLeft } from "react-icons/hi2";
+import "./navbar.scss";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const openHamburgerHandler = () => {
+    {
+      isOpen === false ? setIsOpen(true) : setIsOpen(false);
+    }
+  };
   return (
     // <ThemeProvider theme={theme}>
-    <header>
-    <div className="wrap">
-      <div className="brand">
-        <h1>DAUSAGI</h1>
-      </div>
-      <nav>
-        <div className="nav-right">
-          <a href="" className="link">Beranda</a>
-          <a href="" className="link">Bank Sampah</a>
-          <a href="" className="link">Daur Ulang</a>
-          <a href="" className="link">Layanan</a>
-          <a href="" className="link">Tentang Kami</a>
-          <KontakButton variant="contained" disableRipple>
-           Kontak
-          </KontakButton>
-          {/* <CustomButton
-          backgroundColor='#2E582C'
-          color='#ffffff'
-          textButton='KONTAK'
-          moreBtn={true}
-          /> */}
-          {/* <Button variant="contained" sx={{ bgcolor: (theme) => theme.palette.secondary.main,':hover' : bgcolor}} >Kontak</Button> */}
-          {/* <a href="" className="button">Kontak</a> */}
-        </div>
-      </nav>
-    </div>
-   </header>
+    <AppBar
+      position="sticky"
+      sx={{
+        width: "100%",
+        padding: {
+          xs: "12px 24px",
+          md: "12px 40px",
+        },
+        backgroundColor: "#FFFFFF",
+        boxShadow: "0px 4px 4px rgba(0,0,0,0.05)",
+        margin: "0 auto",
+        zIndex: 100,
+      }}
+    >
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <NavbarBrand />
+        <nav className={isOpen ? "navigation active" : "navigation "}>
+          <NavbarLink />
+        </nav>
+
+        <span
+          className={isOpen ? "hamburgerBtn open" : "hamburgerBtn "}
+          onClick={openHamburgerHandler}
+        >
+          <HiBars3BottomLeft />
+        </span>
+      </Box>
+    </AppBar>
     // </ThemeProvider>
-  )
-}
+  );
+};
 
 export default Navbar;

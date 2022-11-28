@@ -44,7 +44,7 @@ const Content = () => {
         style={{
             width: "5%",
             height: "5px",
-            backgroundColor: "#000339",
+            backgroundColor: "#2E582C",
             margin: "0 auto",
         }}>    
         </div>

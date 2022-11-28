@@ -24,14 +24,14 @@ const Guide = () => {
         style={{
           width: "5%",
           height: "5px",
-          backgroundColor: "#000339",
+          backgroundColor: "#2E582C",
           margin: "0 auto",
         }}
       ></div>
 
       <Typography
         variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
+        sx={{ fontSize: "35px", fontWeight: "bold", color: "#2E582C", my: 3 }}
       >
         Tentang kami
       </Typography>
@@ -46,7 +46,7 @@ const Guide = () => {
             textAlign: "justify",
           }}
         >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, molestiae non eos magnam ipsum pariatur earum mollitia ducimus natus. Odio, quisquam neque aperiam et pariatur voluptatem qui officia! Temporibus cupiditate voluptas fuga impedit quisquam non unde reprehenderit repudiandae quo, ab consectetur, cumque voluptates veniam. Aut dicta voluptate officia quam laudantium pariatur voluptates, iste amet numquam deleniti similique eaque expedita assumenda, quo dolorum maxime dignissimos ratione adipisci. Voluptatum autem, id porro deserunt exercitationem eum impedit cum eligendi quas provident facere placeat!
+        Dausagi merupakan sebuah aplikasi berbasis web yang kami rancang, yang memfasilitasi masyarakat untuk melakukan pengelolaan sampah menjadi uang, dimana aplikasi ini sangat berguna dan mudah digunakan. Seiring dengan berkembangnya Teknologi maka kami mencoba berinovasi dan memfasilitasi masyarakat tidak hanyak sekedar menukar sampah, juga kami sediakan cara pengolahan sampah, edukasi jenis sampah, dan beberapa informasi yang berguna yang tentunya berkaitan dengan sampah, sehingga lingkungan bersih dan juga mendapat keuntungan.
         </Typography>
       </CustomBox>
 

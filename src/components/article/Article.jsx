@@ -9,98 +9,92 @@ const Article = () => {
     },
   }));
 
-
   return (
     <Box
       sx={{
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        marginTop:"5rem",
-        justifyContent:"space-evenly"
-        
+        marginTop: "5rem",
+        justifyContent: "space-evenly",
       }}
     >
-    <Box>
+      <Box>
         <div
-        style={{
-            display :"flex",
-            flexDirection:"column",
-            width:"500px",
-            alignItems:"center"
-        }}>
-      <div
-        style={{
-          width: "5%",
-          height: "5px",
-          backgroundColor: "#000339",
-          margin: "0 auto",
-        }}
-      ></div>
-
-      <Typography
-        variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
-      >
-        Tentang kami
-      </Typography>
-
-      <CustomBox>
-        <Typography
-          variant="body2"
-          sx={{
-            fontSize: "16px",
-            fontWeight: "500",
-            color: "#5A6473",
-            textAlign: "justify",
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "500px",
+            alignItems: "center",
           }}
         >
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, molestiae non eos magnam ipsum pariatur earum mollitia ducimus natus. Odio, quisquam neque aperiam et pariatur voluptatem qui officia! Temporibus cupiditate voluptas fuga impedit quisquam non unde reprehenderit repudiandae quo, ab consectetur, cumque voluptates veniam. Aut dicta voluptate officia quam laudantium pariatur voluptates, iste amet numquam deleniti similique eaque expedita assumenda, quo dolorum maxime dignissimos ratione adipisci. Voluptatum autem, id porro deserunt exercitationem eum impedit cum eligendi quas provident facere placeat!
-        </Typography>
-      </CustomBox>
+          <div
+            style={{
+              width: "5%",
+              height: "5px",
+              backgroundColor: "#2E582C",
+              margin: "0 auto",
+            }}
+          ></div>
+
+          <Typography variant="h3" sx={{ fontSize: "35px", fontWeight: "bold", color: "#2E582C", my: 3 }}>
+            Tentang kami
+          </Typography>
+
+          <CustomBox>
+            <Typography
+              variant="body2"
+              sx={{
+                fontSize: "16px",
+                fontWeight: "500",
+                color: "#5A6473",
+                textAlign: "justify",
+              }}
+            >
+              Aplikasi ini dibangun pada tahun 2022 dengan tujuan untuk menyelesaikan atau menjawab solusi dari susahnya menumbuhkan kesadaran masyarakat mengenai sampah sehingga bersikap tidak peduli terhadap lingkungan, dimana sampah
+              dapat menyebabkan berbagai macam bencana sehingga sangat diperlukan kesadaran masyarakat akan sampah ini.
+            </Typography>
+          </CustomBox>
         </div>
-    </Box>
-    <Box>
+      </Box>
+      <Box>
         <div
-        style={{
-            display :"flex",
-            flexDirection:"column",
-            width:"500px",
-            alignItems:"center"
-        }}>
-      <div
-        style={{
-          width: "5%",
-          height: "5px",
-          backgroundColor: "#000339",
-          margin: "0 auto",
-        }}
-      ></div>
-
-      <Typography
-        variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
-      >
-        Tentang kami
-      </Typography>
-
-      <CustomBox>
-        <Typography
-          variant="body2"
-          sx={{
-            fontSize: "16px",
-            fontWeight: "500",
-            color: "#5A6473",
-            textAlign: "justify",
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "500px",
+            alignItems: "center",
           }}
         >
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, molestiae non eos magnam ipsum pariatur earum mollitia ducimus natus. Odio, quisquam neque aperiam et pariatur voluptatem qui officia! Temporibus cupiditate voluptas fuga impedit quisquam non unde reprehenderit repudiandae quo, ab consectetur, cumque voluptates veniam. Aut dicta voluptate officia quam laudantium pariatur voluptates, iste amet numquam deleniti similique eaque expedita assumenda, quo dolorum maxime dignissimos ratione adipisci. Voluptatum autem, id porro deserunt exercitationem eum impedit cum eligendi quas provident facere placeat!
-        </Typography>
-      </CustomBox>
+          <div
+            style={{
+              width: "5%",
+              height: "5px",
+              backgroundColor: "#2E582C",
+              margin: "0 auto",
+            }}
+          ></div>
+
+          <Typography variant="h3" sx={{ fontSize: "35px", fontWeight: "bold", color: "#2E582C", my: 3 }}>
+            Tentang Aplikasi
+          </Typography>
+
+          <CustomBox>
+            <Typography
+              variant="body2"
+              sx={{
+                fontSize: "16px",
+                fontWeight: "500",
+                color: "#5A6473",
+                textAlign: "justify",
+              }}
+            >
+              Aplikasi ini merupakan sebuah aplikasi berbasis web yang dikembangkan untuk memanagement sampah masyarakat dimana ketika melakukan penyetoran sampah akan memberikan feedback seperti saldo sehingga selain menjadikan masyarakat
+              bisa memanagement sampah mereka juga akan mendapat penghasilan dan lingkungan pun terjaga dengan menggunakan aplikasi ini.
+            </Typography>
+          </CustomBox>
         </div>
-    </Box>
-
-
+      </Box>
     </Box>
   );
 };

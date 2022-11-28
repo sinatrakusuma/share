@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Dausagi
+> Platform Bank Sampah Digital.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](Preview-Interface.png)
 
-## Available Scripts
+<p>Dausagi merupakan website yang dibangun menggunakan framework React.Js yang terfokus menjadi platform bank sampah digital. Disini user bisa mengorder penabungan sampah lalu akan langsung dikonversi oleh menjadi rupiah oleh website kemudian sampah akan dijemput langsung ke lokasi.</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## Dibangun Dengan
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* HTML 5.2
+* CSS 3
+* Javascript
+* React.Js 18.2.0
+* Material UI 5.10.15
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalasi & Konfigurasi Proyek Aplikasi Web
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Memasang semua package`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###  `Memulai proyek`
 
-### `npm run eject`
+```
+npm start
+```
+Jalankan proyek di mode development.\
+ Buka [http://localhost:3000](http://localhost:3000) untuk melihat di browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Halaman akan memuat ulang jika dilakukan perubahan.\
+Error juga bisa dilihat pada console browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Menguji coba run`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm test
+```
 
-## Learn More
+### `Melakukan Build`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Mencari Package`
 
-### Code Splitting
+```
+npm search <kata-kunci>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Mencopot Package
 
-### Analyzing the Bundle Size
+```
+npm uninstall <nama-package>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `Keluar dari proses`
 
-### Making a Progressive Web App
+```
+npm run eject
+```
+**Catatan: ini adalah operasi satu arah. Setelah melakukan "eject", maka tidak dapat kembali!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- LISENSI -->
+## Lisensi
 
-### Deployment
+Didistribusikan dengan lisensi C22-107. Silahkan cek `License.txt` untuk informasi selengkapnya.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Kontak -->
+## Kontak
+
+Sinatra Kusuma - R009X0088 - sinatrakusuma302@gmail.com <br>
+Ervan Muhammad Adrian - R237X0463 - ervanmuhammada454@gmail.com <br>
+Enzi Marni - R132Y0225 - enjiimarnii@gmail.com <br>
+Muhammad Ichsan Alfarabi - R009X0070 - ihsanredarmy36@gmail.com <br>
+
+Link Proyek: [https://github.com/sinatrakusuma/capstone-project](https://github.com/sinatrakusuma/capstone-project) <br>
+
+

@@ -1,4 +1,27 @@
-.wrap-footer{
-    display: flex;
-    flex-direction: column;
+footer{
+    width: 100%;
+
+    .logo-name{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .footer-link{
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+        transition: all .1s ease-in-out;
+        padding: 8px 0;
+        border-bottom: 1.5px solid transparent ;
+        &:hover{
+            border-bottom: 1.5px solid rgb(44, 80, 42) ;
+        }
+    }
+    .media-icon{
+        transition: all .1s ease-in;
+    
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    
 }
